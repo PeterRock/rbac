@@ -2,7 +2,7 @@
 
 PHP-RBAC is an authorization library for PHP. It provides developers with NIST Level 2 Hierarchical Role Based Access Control and more, in the fastest implementation yet.
 
-**Current Stable Release:** [PHP-RBAC v2.0](https://sourceforge.net/projects/phprbac/files/latest/download?source=dlp)
+**Current Stable Release:** PHP-RBAC v2.0
 
 ## Connect With Us
 
@@ -27,6 +27,9 @@ For more great resources see the [NIST RBAC Group Page](http://csrc.nist.gov/gro
 ## Installation
 
 You can now use [Composer](https://getcomposer.org/) to install the PHP-RBAC code base.
+```
+composer require owasp/phprbac
+```
 
 For Installation Instructions please refer to the "[Getting Started](http://phprbac.net/docs_getting_started.php)" section of our [Documentation](http://phprbac.net/docs_contents.php).
 
@@ -48,7 +51,7 @@ Without a 'use' statement, inside of another namespace (notice the leading backs
         
         $rbac = new \PhpRbac\Rbac();
 
-##PHP-RBAC and PSR
+## PHP-RBAC and PSR
 
 PHP-RBAC's Public API is now fully PSR-0, PSR-1 and PSR-2 compliant.
 
